@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Mysite
+        </h1>
+
+        <nav>
+            <a href="www.google.com">Google</a>
+            <a href="www.facebook.com">Facebook</a>
+            <a href="www.twitter.com">Twitter</a>
+        </nav>
+
+        <div id="option-bar">
+            <i class="fa-solid fa-bars fa-2x">  </i>
+        </div>
+    </header>
+
+
+    <form action="">
+        <div class="search">
+            <input type="search" placeholder="Search" id="search-input" autocomplete="off">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </form>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>E-mail</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>safwat</td>
+                    <td>20</td>
+                    <td>safwat@sa.com</td>
+                </tr>
+
+                <tr>
+                    <td>Nabeel</td>
+                    <td>50</td>
+                    <td>nabeel@na.com</td>
+                </tr>
+
+                <tr>
+                    <td>Nabeel</td>
+                    <td>50</td>
+                    <td>nabeel@na.com</td>
+                </tr>
+
+                <tr>
+                    <td>Nabeel</td>
+                    <td>50</td>
+                    <td>nabeel@na.com</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </div>
+
+
+
+    <script>
+        document.getElementById("option-bar").onclick = function() {
+            var target = document.getElementById("option-bar").previousElementSibling;
+            target.classList.toggle("option-bar");
+        };
+    </script>
+
+    <script src="https://use.fontawesome.com/a34asdfsd.js"></script>
+
+</body>
+
+</html>
